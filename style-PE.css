@@ -1,0 +1,116 @@
+
+body{
+
+    background-color: white;
+    margin: 0;
+    overflow: hidden;
+}
+
+.wrap{
+
+    width: 1533px;
+    height: 450px; 
+    position: relative;
+
+}
+
+.title{
+
+    position: absolute;
+    color: black;
+    left: 45%;
+    top: 2%;
+    font-family: "Caveat Brush";
+    font-size: 50px;
+
+}
+
+.black-ink{
+
+    position: absolute;
+    right: 76.2%;
+    width: 50%;
+
+}
+
+.black-ink2{
+
+    position: absolute;
+    left: 75%;
+    top: -50.5%;
+    width: 40%;
+    transform: rotate(0deg);
+}
+
+
+
+
+.shortened-container{
+
+    position: absolute;
+    left:24%;
+    top:25%;
+    width: 800px;
+}
+
+.justified-text{
+
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+#userInput {
+
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    width: 65px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1.5px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px; 
+    box-sizing: border-box; 
+    background-clip: padding-box; 
+
+}
+  
+  #userInput::placeholder {
+
+    color: rgba(251, 244, 244, 0.756);
+
+}
+
+#hintButton {
+
+    position: absolute;
+    top: 80%;
+    left: 1%;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+}
+
+#hintButton:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+#hintButton:active {
+    
+    transform: translateX(1px);
+}
+
